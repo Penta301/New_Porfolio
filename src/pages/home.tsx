@@ -6,7 +6,7 @@ const Home: React.FC<Props> = ({ className }) => {
   const { cardsArr } = Logic();
 
   return (
-    <div className="flex w-full justify-between py-4">
+    <div className="flex w-full gap-4 py-4">
       <Card cardsArr={cardsArr}></Card>
     </div>
   );
