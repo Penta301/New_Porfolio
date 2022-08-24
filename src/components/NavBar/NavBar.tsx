@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const NavBar: React.FC<Props> = ({ elements, className }) => {
   return (
     <div
-      className={`w-full flex justify-between ${className} py-4 px-4 font-bold text-white uppercase tracking-wide text-sm`}
+      className={`w-full flex justify-between ${className} py-4 font-bold text-white uppercase tracking-wide text-sm`}
     >
       <Link to="/">Logo</Link>
       <div className="flex gap-8">
