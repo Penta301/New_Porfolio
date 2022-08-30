@@ -10,6 +10,8 @@ interface Cards {
 interface Props {
   className?: string;
   cardsArr: Cards[];
+  titleClassName?: string;
+  paragraphClassName?: string;
 }
 
 export type { Props, Cards };
